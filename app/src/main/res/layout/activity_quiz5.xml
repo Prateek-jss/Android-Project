@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DA784"
+    tools:context=".quiz5">
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="391dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        android:text="  Q5."
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton117"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton117"
+        android:layout_width="225dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="17dp"
+        android:text="a"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton118"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton118"
+        android:layout_width="224dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="5dp"
+        android:text="b"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton119"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton119"
+        android:layout_width="219dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginRight="79dp"
+        android:layout_marginBottom="9dp"
+        android:text="c"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/radioButton120"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton120"
+        android:layout_width="218dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginLeft="114dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="52dp"
+        android:text="d"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toTopOf="@+id/button105"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button105"
+        android:layout_width="134dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="97dp"
+        android:text="Finish"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

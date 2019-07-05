@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2b1d1d">
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="46dp"
+        android:layout_toEndOf="@+id/button40"
+        android:layout_toRightOf="@+id/button40"
+        android:text="Magical Music Player" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QUIZ"
+        android:id="@+id/button41"
+        android:layout_marginBottom="38dp"
+        android:layout_above="@+id/button42"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView40"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button40"
+        android:layout_above="@+id/button41"
+        android:src="@drawable/w" />
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREVIOUS"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+</RelativeLayout>

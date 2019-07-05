@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.netcampproject"><uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".quiz7" />
+        <activity android:name=".quiz6" />
+        <activity android:name=".quiz4" />
+        <activity android:name=".quiz5" />
+        <activity android:name=".quiz3" />
+        <activity android:name=".quiz2" />
+        <activity android:name=".quiz" />
+        <activity android:name=".Magical" />
+        <activity android:name=".Fifth" />
+        <activity android:name=".MusicPlayer" />
+        <activity android:name=".Calculator" />
+        <activity android:name=".Fourth" />
+        <activity android:name=".Third" />
+        <activity android:name=".Second" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
